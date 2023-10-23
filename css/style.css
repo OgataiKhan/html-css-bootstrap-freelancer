@@ -1,0 +1,89 @@
+/* 
+********
+DEBUG
+********
+*/
+
+.ms_prova {
+    background-color: green;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* 
+********
+VARIABLES
+********
+*/
+
+/* #region */
+
+:root {
+    --ms_bg-header: #2c3e50;
+    --ms_bg-primary: #1abc9c;
+    --ms_bg-secondary: #ffffff;
+    --ms_bg-footer-top: #3a546d;
+    --ms_text-primary: #ffffff;
+    --ms_text-secondary: #333333;
+}
+
+/* #endregion */
+
+/* 
+********
+TYPOGRAPHY
+********
+*/
+
+/* #region */
+
+.ms_text-primary {
+    color: var(--ms_text-primary);
+}
+
+.ms_text-secondary {
+    color: var(--ms_bg-secondary)
+}
+
+/* #endregion */
+
+/* 
+********
+HEADER
+********
+*/
+
+/* #region */
+
+.navbar {
+    background-color: var(--ms_bg-header);
+}
+
+/* #endregion */
+
+
+/* 
+********
+MAIN
+********
+*/
+
+/* #region */
+
+section:nth-of-type(odd) {
+    background-color: var(--ms_bg-primary);
+}
+
+/* #endregion */
+
+
+/* 
+********
+FOOTER
+********
+*/
+
+/* #region */
+
+/* #endregion */
