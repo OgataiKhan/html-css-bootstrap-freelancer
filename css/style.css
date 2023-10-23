@@ -4,12 +4,8 @@ DEBUG
 ********
 */
 
-/* .col {
-    background-color: green;
-} */
-
 .ms_content {
-    background-color: yellow;
+    background-color: green;
 }
 
 
@@ -91,5 +87,13 @@ FOOTER
 */
 
 /* #region */
+
+.ms_footer-top {
+    background-color: var(--ms_bg-footer-top);
+}
+
+.ms_footer-bottom {
+    background-color: var(--ms_bg-header);
+}
 
 /* #endregion */
