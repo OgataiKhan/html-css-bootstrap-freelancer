@@ -4,10 +4,12 @@ DEBUG
 ********
 */
 
-.ms_prova {
+/* .col {
     background-color: green;
-    display: flex;
-    justify-content: space-between;
+} */
+
+.ms_content {
+    background-color: yellow;
 }
 
 
@@ -43,7 +45,7 @@ TYPOGRAPHY
 }
 
 .ms_text-secondary {
-    color: var(--ms_bg-secondary)
+    color: var(--ms_text-secondary)
 }
 
 /* #endregion */
@@ -73,6 +75,10 @@ MAIN
 
 section:nth-of-type(odd) {
     background-color: var(--ms_bg-primary);
+}
+
+section:nth-of-type(even) {
+    background-color: var(--ms_bg-secondary);
 }
 
 /* #endregion */
