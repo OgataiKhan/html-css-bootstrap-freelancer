@@ -115,10 +115,14 @@ section:nth-of-type(even) {
     --ms_leftrightlines-bg: #ffffff;
 }
 
-#portfolio .leftrightlines {
+#portfolio .leftrightlines,
+#contact .leftrightlines {
     --ms_leftrightlines-bg: #2c3e50;
 }
 
+#contact .ms_textarea {
+    height: unset;
+}
 
 /* #endregion */
 
