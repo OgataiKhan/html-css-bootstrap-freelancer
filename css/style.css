@@ -1,13 +1,14 @@
 /* 
 ********
-DEBUG
+IMPORTS
 ********
 */
 
-.ms_content {
-    background-color: green;
-}
+/* #region */
 
+@import 'components/comp-divider-leftrightlines.css';
+
+/* #endregion */
 
 /* 
 ********
@@ -24,9 +25,21 @@ VARIABLES
     --ms_bg-footer-top: #3a546d;
     --ms_text-primary: #ffffff;
     --ms_text-secondary: #333333;
+    --ms_leftrightlines-bg: #ffffff;
 }
 
 /* #endregion */
+
+/* 
+********
+DEBUG
+********
+*/
+
+.ms_content {
+    background-color: green;
+}
+
 
 /* 
 ********
@@ -43,6 +56,20 @@ TYPOGRAPHY
 .ms_text-secondary {
     color: var(--ms_text-secondary)
 }
+
+/* #endregion */
+
+/* 
+********
+COMMON
+********
+*/
+
+/* #region */
+
+/* .ms_leftrightlines-bg {
+
+} */
 
 /* #endregion */
 

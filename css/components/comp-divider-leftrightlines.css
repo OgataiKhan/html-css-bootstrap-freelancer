@@ -1,0 +1,26 @@
+.leftrightlines {
+    position: relative;
+}
+
+.leftrightlines::before,
+.leftrightlines::after {
+    content: '';
+    display: block;
+    height: 4px;
+    width: calc(120px + 2vw);
+    border-radius: 2px;
+    position: absolute;
+    top: 50%;
+    background-color: var(--ms_leftrightlines-bg);
+}
+
+.leftrightlines::before {
+    right: 50%;
+    transform: translatex(-4vw);
+}
+
+.leftrightlines::after {
+    left: 50%;
+    transform: translatex(4vw);
+}
+
