@@ -8,6 +8,7 @@ IMPORTS
 
 @import 'components/comp-divider-leftrightlines.css';
 @import 'components/comp-button.css';
+@import 'components/comp-socialicon.css';
 
 /* #endregion */
 
@@ -29,17 +30,6 @@ VARIABLES
 }
 
 /* #endregion */
-
-/* 
-********
-DEBUG
-********
-*/
-
-.ms_content {
-    background-color: green;
-}
-
 
 /* 
 ********
@@ -141,6 +131,20 @@ FOOTER
 
 .ms_footer-bottom {
     background-color: var(--ms_bg-header);
+}
+
+footer .ms_footer-top a {
+    color: var(--ms_bg-primary);
+    text-decoration: none;
+}
+
+footer .ms_footer-top a:hover {
+    color: var(--ms_text-primary);
+    text-decoration: underline;
+}
+
+footer .ms_social-icon {
+    --ms_socialicon: #ffffff;
 }
 
 /* #endregion */

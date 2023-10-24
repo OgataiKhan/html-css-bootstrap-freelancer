@@ -1,0 +1,12 @@
+.ms_social-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    line-height: 40px;
+    border: 1px solid var(--ms_socialicon);
+    color: var(--ms_socialicon);
+    font-size: 1rem;
+    display: inline-block;
+    margin-left: 4px;
+    margin-right: 4px;
+}
