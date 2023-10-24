@@ -7,6 +7,7 @@ IMPORTS
 /* #region */
 
 @import 'components/comp-divider-leftrightlines.css';
+@import 'components/comp-button.css';
 
 /* #endregion */
 
@@ -25,7 +26,6 @@ VARIABLES
     --ms_bg-footer-top: #3a546d;
     --ms_text-primary: #ffffff;
     --ms_text-secondary: #333333;
-    /* --ms_leftrightlines-bg: #ffffff; */
 }
 
 /* #endregion */
@@ -67,6 +67,12 @@ COMMON
 
 /* #region */
 
+.ms_btn-primary {
+    background-color: var(--ms_bg-primary);
+    border: 1px solid var(--ms_text-primary);
+    color: var(--ms_text-primary);
+}
+
 /* .ms_leftrightlines-bg {
 
 } */
@@ -104,7 +110,8 @@ section:nth-of-type(even) {
     background-color: var(--ms_bg-secondary);
 }
 
-#jumbo .leftrightlines {
+#jumbo .leftrightlines,
+#about .leftrightlines {
     --ms_leftrightlines-bg: #ffffff;
 }
 

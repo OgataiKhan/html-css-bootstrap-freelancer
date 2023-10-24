@@ -7,7 +7,7 @@
     content: '';
     display: block;
     height: 4px;
-    width: calc(120px + 2vw);
+    width: 10vw;
     border-radius: 2px;
     position: absolute;
     top: 50%;
@@ -16,11 +16,11 @@
 
 .leftrightlines::before {
     right: 50%;
-    transform: translatex(-4vw);
+    transform: translatex(-3vw);
 }
 
 .leftrightlines::after {
     left: 50%;
-    transform: translatex(4vw);
+    transform: translatex(3vw);
 }
 
