@@ -54,7 +54,7 @@ HEADER
 
 /* #region */
 
-.navbar {
+header {
     background-color: var(--ms_bg-header);
 }
 

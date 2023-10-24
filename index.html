@@ -1,91 +1,134 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bootstrap Freelancer</title>
     <!-- Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <!-- /Bootstrap -->
-     <!-- Font Awesome -->
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-     <!-- /Font Awesome -->
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <!-- /Font Awesome -->
     <!-- My css -->
     <link rel="stylesheet" href="css/style.css">
     <!-- /My css -->
 </head>
+
 <body>
     <!-- Header -->
-    <div class="navbar">
+    <header class="py-2 text-white">
         <div class="container">
-            <div class="d-flex flex-fill justify-content-between">
-                <div class="text-uppercase ms_text-primary">Start Bootstrap</div>
-                <div class="ms_text-primary">Nav Menu</div>
-            </div>
+            <!-- Bootstrap navbar -->
+            <nav class="navbar navbar-expand-lg text-uppercase" data-bs-theme="dark">
+                <div class="container-fluid">
+                    <a class="navbar-brand text-uppercase fw-bold fs-4" href="#">Start Bootstrap</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item">
+                                <a class="nav-link text-white" aria-current="page" href="#portfolio">Portfolio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="#about">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="#contact">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <!-- /Bootstrap navbar -->
         </div>
-    </div>
+    </header>
     <!-- /Header -->
-    <!-- Profile -->
-    <section>
-        <div class="container text-center py-5">
-            <div>IMAGE</div>
-            <h1 class="text-uppercase ms_text-primary">Start Bootstrap</h1>
-            <p class="text-uppercase ms_text-primary">Graphic Designer - Web Designer - Illustrator</p>
-        </div>
-    </section>
-    <!-- /Profile -->
-    <!-- Portfolio -->
-    <section>
-        <div class="container text-center py-5">
-            <h2 class="text-uppercase ms_text-secondary">Portfolio</h2>
-            <div class="row g-4">
-                <div class="col col-12 col-lg-6 col-xxl-4">
-                    <div class="rounded ms_content">card</div>
-                </div>
-                <div class="col col-12 col-lg-6 col-xxl-4">
-                    <div class="rounded ms_content">card</div>
-                </div>
-                <div class="col col-12 col-lg-6 col-xxl-4">
-                    <div class="rounded ms_content">card</div>
-                </div>
-                <div class="col col-12 col-lg-6 col-xxl-4">
-                    <div class="rounded ms_content">card</div>
-                </div>
-                <div class="col col-12 col-lg-6 col-xxl-4">
-                    <div class="rounded ms_content">card</div>
-                </div>
-                <div class="col col-12 col-lg-6 col-xxl-4">
-                    <div class="rounded ms_content">card</div>
+    <main>
+        <!-- Profile -->
+        <section id="jumbo" class="py-5">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-8">
+                        <div>IMAGE</div>
+                        <h1 class="text-uppercase ms_text-primary">Start Bootstrap</h1>
+                        <p class="text-uppercase ms_text-primary">Graphic Designer - Web Designer - Illustrator</p>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <!-- /Portfolio -->
-    <!-- About -->
-    <section>
-        <div class="container text-center py-5">
-            <h2 class="text-uppercase ms_text-primary">About</h2>
-            <div class="row px-5 text-start">
-                <div class="col col-12 col-lg-6">
-                    <p class="ms_text-primary">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid non consequuntur dolore doloremque veniam temporibus sunt vitae libero quos qui et repellendus est distinctio ex animi maxime, suscipit asperiores? Laudantium.</p>
-                </div>
-                <div class="col col-12 col-lg-6">
-                    <p class="ms_text-primary">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid non consequuntur dolore doloremque veniam temporibus sunt vitae libero quos qui et repellendus est distinctio ex animi maxime, suscipit asperiores? Laudantium.</p>
+        </section>
+        <!-- /Profile -->
+        <!-- Portfolio -->
+        <section id="portfolio">
+            <div class="container text-center py-5">
+                <h2 class="text-uppercase ms_text-secondary">Portfolio</h2>
+                <div class="row g-4">
+                    <div class="col col-12 col-lg-6 col-xxl-4">
+                        <div class="rounded-3 overflow-hidden ms_content">
+                            <img src="img/cabin.png" alt="Cabin" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="col col-12 col-lg-6 col-xxl-4">
+                        <div class="rounded ms_content">card</div>
+                    </div>
+                    <div class="col col-12 col-lg-6 col-xxl-4">
+                        <div class="rounded ms_content">card</div>
+                    </div>
+                    <div class="col col-12 col-lg-6 col-xxl-4">
+                        <div class="rounded ms_content">card</div>
+                    </div>
+                    <div class="col col-12 col-lg-6 col-xxl-4">
+                        <div class="rounded ms_content">card</div>
+                    </div>
+                    <div class="col col-12 col-lg-6 col-xxl-4">
+                        <div class="rounded ms_content">card</div>
+                    </div>
                 </div>
             </div>
-            <div>Button</div>
-        </div>
-    </section>
-    <!-- /About -->
-    <!-- Contacts -->
-    <section>
-        <div class="container text-center py-5">
-            <h2 class="text-uppercase ms_text-secondary">Contact Me</h2>
-            <div class="px-5 text-start">Form</div>
-            <div class="px-5 text-start">Button</div>
-        </div>
-    </section>
-    <!-- /Contacts -->
+        </section>
+        <!-- /Portfolio -->
+        <!-- About -->
+        <section id="about">
+            <div class="container text-center py-5">
+                <h2 class="text-uppercase ms_text-primary">About</h2>
+                <div class="row text-start justify-content-center">
+                    <div class="col col-10 col-lg-4 col-xxl-5">
+                        <p class="ms_text-primary">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid non
+                            consequuntur dolore doloremque veniam temporibus sunt vitae libero quos qui et repellendus
+                            est distinctio ex animi maxime, suscipit asperiores? Laudantium.</p>
+                    </div>
+                    <div class="col col-10 col-lg-4 col-xxl-5">
+                        <p class="ms_text-primary">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid non
+                            consequuntur dolore doloremque veniam temporibus sunt vitae libero quos qui et repellendus
+                            est distinctio ex animi maxime, suscipit asperiores? Laudantium.</p>
+                    </div>
+                </div>
+                <div>Button</div>
+            </div>
+        </section>
+        <!-- /About -->
+        <!-- Contacts -->
+        <section id="contact">
+            <div class="container text-center py-5">
+                <h2 class="text-uppercase ms_text-secondary">Contact Me</h2>
+                <div class="form-floating mb-3">
+                    <input type="email" class="form-control border-0 border-bottom rounded-0" id="floatingInput"
+                        placeholder="name@example.com">
+                    <label for="floatingInput">Email address</label>
+                </div>
+                <div class="form-floating">
+                    <input type="password" class="form-control border-0 border-bottom rounded-0" id="floatingPassword"
+                        placeholder="Password">
+                    <label for="floatingPassword">Password</label>
+                </div>
+            </div>
+        </section>
+        <!-- /Contacts -->
+    </main>
     <!-- Footer -->
     <footer>
         <div class="ms_footer-top">
@@ -122,7 +165,10 @@
     </footer>
     <!-- /Footer -->
     <!-- Bootstrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
     <!-- /Bootstrap JS -->
 </body>
+
 </html>
