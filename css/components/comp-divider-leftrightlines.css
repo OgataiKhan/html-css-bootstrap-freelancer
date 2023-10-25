@@ -1,4 +1,7 @@
 .leftrightlines {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     position: relative;
 }
 
@@ -11,7 +14,7 @@
     border-radius: 2px;
     position: absolute;
     top: 50%;
-    background-color: var(--ms_leftrightlines-bg);
+    background-color: currentColor;
 }
 
 .leftrightlines::before {

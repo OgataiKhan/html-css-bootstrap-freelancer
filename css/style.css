@@ -100,18 +100,17 @@ section:nth-of-type(even) {
     background-color: var(--ms_bg-secondary);
 }
 
-#jumbo .leftrightlines,
-#about .leftrightlines {
-    --ms_leftrightlines-bg: #ffffff;
+#jumbo .ms_avatar {
+    max-width: 250px;
 }
 
 #portfolio .leftrightlines,
 #contact .leftrightlines {
-    --ms_leftrightlines-bg: #2c3e50;
+    color: var(--ms_bg-footer-top);
 }
 
 #contact .ms_textarea {
-    height: unset;
+    height: 180px;
 }
 
 /* #endregion */
@@ -133,18 +132,14 @@ FOOTER
     background-color: var(--ms_bg-header);
 }
 
-footer .ms_footer-top a {
+footer .ms_footer-top .ms_footer-about a {
     color: var(--ms_bg-primary);
     text-decoration: none;
 }
 
-footer .ms_footer-top a:hover {
+footer .ms_footer-top .ms_footer-about a:hover {
     color: var(--ms_text-primary);
     text-decoration: underline;
-}
-
-footer .ms_social-icon {
-    --ms_socialicon: #ffffff;
 }
 
 /* #endregion */
